@@ -1,0 +1,33 @@
+
+
+.root {
+     -fx-background-image: url("gasStationPic.jpg");
+     -fx-background-repeat: no-repeat;
+     -fx-background-size: cover, auto;
+}
+
+.label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f0ffff;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+#welcome-text {
+   -fx-font-size: 32px;
+   -fx-font-family: "Comic Sans MS";
+   -fx-font-weight: bold;
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
